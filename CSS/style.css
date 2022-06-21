@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: inline-block;
+}
+h2{
+    align-items: center;
+}
+
+h3{
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: 3px solid #FEd;
+    margin-top: 40px;
+}
+
+#container {
+    margin-left: 30px;
+    position: relative;
+    display: inline-flex;
+    width: 90%;
+    height: 350px;
+    background-color: #FED;
+}
+#nomeLabel{
+    margin-top: 20%;
+   position: absolute;
+}
+#nomeMotor{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 20%;
+}
+
+#consumo {
+position: absolute;
+height: 290px;
+margin: 0px 250px ;
+background-color: aquamarine;
+}
+
+select{
+    margin-left: 15px;
+}
+button{
+
+    margin: 0px 15px ;
+    padding: 0px 45px;
+}
+
+.collapse{
+    overflow: hidden;
+}
+
+#painel {
+   position: absolute;
+   margin-left: 50%;
+   font-size: 14px;
+   background-color: bisque;
+}
+
+table{
+    font-size: 13px;
+    margin: 0px 5px;
+    border: rgb(0, 0, 0) solid 3px;
+}
+
+img {
+    align-items: center;
+}
